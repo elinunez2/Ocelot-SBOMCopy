@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:1e253dbb-7866-42dc-a368-c2f2308a8074" version="1">
+  <metadata>
+    <timestamp>2022-10-28T14:35:33.864Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>AppThreat</vendor>
+        <name>cdxgen</name>
+        <version>4.0.41</version>
+      </tool>
+    </tools>
+    <authors>
+      <author>
+        <name>Team AppThreat</name>
+        <email>cloud@appthreat.com</email>
+      </author>
+    </authors>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:nuget/Ocelot@17.0.1">
+      <group/>
+      <name>Ocelot</name>
+      <version>17.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Ocelot@17.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Ocelot.Administration@17.0.1">
+      <group/>
+      <name>Ocelot.Administration</name>
+      <version>17.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Ocelot.Administration@17.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/ocelot@17.0.1">
+      <group/>
+      <name>ocelot</name>
+      <version>17.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/ocelot@17.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Ocelot.Provider.Eureka@17.0.1">
+      <group/>
+      <name>Ocelot.Provider.Eureka</name>
+      <version>17.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Ocelot.Provider.Eureka@17.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Ocelot.Provider.Polly@17.0.1">
+      <group/>
+      <name>Ocelot.Provider.Polly</name>
+      <version>17.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Ocelot.Provider.Polly@17.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Steeltoe.Discovery.Client@1.1.0">
+      <group/>
+      <name>Steeltoe.Discovery.Client</name>
+      <version>1.1.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Steeltoe.Discovery.Client@1.1.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/GraphQL@4.7.1">
+      <group/>
+      <name>GraphQL</name>
+      <version>4.7.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/GraphQL@4.7.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.VisualStudio.Azure.Containers.Tools.Targets@1.14.0">
+      <group/>
+      <name>Microsoft.VisualStudio.Azure.Containers.Tools.Targets</name>
+      <version>1.14.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.VisualStudio.Azure.Containers.Tools.Targets@1.14.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Ocelot.Provider.Kubernetes@17.0.1">
+      <group/>
+      <name>Ocelot.Provider.Kubernetes</name>
+      <version>17.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Ocelot.Provider.Kubernetes@17.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Jaeger@1.0.3">
+      <group/>
+      <name>Jaeger</name>
+      <version>1.0.3</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Jaeger@1.0.3</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@6.0.0">
+      <group/>
+      <name>Microsoft.Extensions.DependencyInjection.Abstractions</name>
+      <version>6.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@6.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ServiceFabric@8.2.1363">
+      <group/>
+      <name>Microsoft.ServiceFabric</name>
+      <version>8.2.1363</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.ServiceFabric@8.2.1363</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ServiceFabric.Services@5.2.1363">
+      <group/>
+      <name>Microsoft.ServiceFabric.Services</name>
+      <version>5.2.1363</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.ServiceFabric.Services@5.2.1363</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ServiceFabric@7.2.434">
+      <group/>
+      <name>Microsoft.ServiceFabric</name>
+      <version>7.2.434</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.ServiceFabric@7.2.434</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ServiceFabric.Services@4.2.434">
+      <group/>
+      <name>Microsoft.ServiceFabric.Services</name>
+      <version>4.2.434</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.ServiceFabric.Services@4.2.434</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNetCore@2.2.0">
+      <group/>
+      <name>Microsoft.AspNetCore</name>
+      <version>2.2.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.AspNetCore@2.2.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNetCore.Mvc@2.2.0">
+      <group/>
+      <name>Microsoft.AspNetCore.Mvc</name>
+      <version>2.2.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.AspNetCore.Mvc@2.2.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.ServiceFabric.AspNetCore.Kestrel@4.2.434">
+      <group/>
+      <name>Microsoft.ServiceFabric.AspNetCore.Kestrel</name>
+      <version>4.2.434</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.ServiceFabric.AspNetCore.Kestrel@4.2.434</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/StyleCop.Analyzers@1.2.0-beta.164">
+      <group/>
+      <name>StyleCop.Analyzers</name>
+      <version>1.2.0-beta.164</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/StyleCop.Analyzers@1.2.0-beta.164</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/IdentityServer4.AccessTokenValidation@3.0.1">
+      <group/>
+      <name>IdentityServer4.AccessTokenValidation</name>
+      <version>3.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/IdentityServer4.AccessTokenValidation@3.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/IdentityServer4@4.1.2">
+      <group/>
+      <name>IdentityServer4</name>
+      <version>4.1.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/IdentityServer4@4.1.2</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/CacheManager.Core@2.0.0-beta-1629">
+      <group/>
+      <name>CacheManager.Core</name>
+      <version>2.0.0-beta-1629</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/CacheManager.Core@2.0.0-beta-1629</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/CacheManager.Microsoft.Extensions.Configuration@2.0.0-beta-1629">
+      <group/>
+      <name>CacheManager.Microsoft.Extensions.Configuration</name>
+      <version>2.0.0-beta-1629</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/CacheManager.Microsoft.Extensions.Configuration@2.0.0-beta-1629</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/CacheManager.Microsoft.Extensions.Logging@2.0.0-beta-1629">
+      <group/>
+      <name>CacheManager.Microsoft.Extensions.Logging</name>
+      <version>2.0.0-beta-1629</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/CacheManager.Microsoft.Extensions.Logging@2.0.0-beta-1629</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Consul@1.6.10.4">
+      <group/>
+      <name>Consul</name>
+      <version>1.6.10.4</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Consul@1.6.10.4</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Steeltoe.Discovery.ClientCore@3.1.2">
+      <group/>
+      <name>Steeltoe.Discovery.ClientCore</name>
+      <version>3.1.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Steeltoe.Discovery.ClientCore@3.1.2</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Steeltoe.Discovery.Eureka@3.1.2">
+      <group/>
+      <name>Steeltoe.Discovery.Eureka</name>
+      <version>3.1.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Steeltoe.Discovery.Eureka@3.1.2</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/KubeClient@2.4.6">
+      <group/>
+      <name>KubeClient</name>
+      <version>2.4.6</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/KubeClient@2.4.6</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/KubeClient.Extensions.DependencyInjection@2.4.6">
+      <group/>
+      <name>KubeClient.Extensions.DependencyInjection</name>
+      <version>2.4.6</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/KubeClient.Extensions.DependencyInjection@2.4.6</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Polly@7.2.3">
+      <group/>
+      <name>Polly</name>
+      <version>7.2.3</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Polly@7.2.3</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Butterfly.Client@0.0.8">
+      <group/>
+      <name>Butterfly.Client</name>
+      <version>0.0.8</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Butterfly.Client@0.0.8</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Butterfly.Client.AspNetCore@0.0.8">
+      <group/>
+      <name>Butterfly.Client.AspNetCore</name>
+      <version>0.0.8</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Butterfly.Client.AspNetCore@0.0.8</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/OpenTracing@0.12.1">
+      <group/>
+      <name>OpenTracing</name>
+      <version>0.12.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/OpenTracing@0.12.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/FluentValidation@10.3.6">
+      <group/>
+      <name>FluentValidation</name>
+      <version>10.3.6</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/FluentValidation@10.3.6</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNetCore.MiddlewareAnalysis@6.0.1">
+      <group/>
+      <name>Microsoft.AspNetCore.MiddlewareAnalysis</name>
+      <version>6.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.AspNetCore.MiddlewareAnalysis@6.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.DiagnosticAdapter@3.1.22">
+      <group/>
+      <name>Microsoft.Extensions.DiagnosticAdapter</name>
+      <version>3.1.22</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.DiagnosticAdapter@3.1.22</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNetCore.Mvc.NewtonsoftJson@6.0.1">
+      <group/>
+      <name>Microsoft.AspNetCore.Mvc.NewtonsoftJson</name>
+      <version>6.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.AspNetCore.Mvc.NewtonsoftJson@6.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNetCore.TestHost@6.0.1">
+      <group/>
+      <name>Microsoft.AspNetCore.TestHost</name>
+      <version>6.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.AspNetCore.TestHost@6.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.NET.Test.Sdk@17.0.0">
+      <group/>
+      <name>Microsoft.NET.Test.Sdk</name>
+      <version>17.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.NET.Test.Sdk@17.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Moq@4.16.1">
+      <group/>
+      <name>Moq</name>
+      <version>4.16.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Moq@4.16.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/xunit.runner.visualstudio@2.4.3">
+      <group/>
+      <name>xunit.runner.visualstudio</name>
+      <version>2.4.3</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/xunit.runner.visualstudio@2.4.3</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.EnvironmentVariables@6.0.0">
+      <group/>
+      <name>Microsoft.Extensions.Configuration.EnvironmentVariables</name>
+      <version>6.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.EnvironmentVariables@6.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.FileExtensions@6.0.0">
+      <group/>
+      <name>Microsoft.Extensions.Configuration.FileExtensions</name>
+      <version>6.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.FileExtensions@6.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.Json@6.0.0">
+      <group/>
+      <name>Microsoft.Extensions.Configuration.Json</name>
+      <version>6.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.Json@6.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging@6.0.0">
+      <group/>
+      <name>Microsoft.Extensions.Logging</name>
+      <version>6.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging@6.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging.Console@6.0.0">
+      <group/>
+      <name>Microsoft.Extensions.Logging.Console</name>
+      <version>6.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging.Console@6.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging.Debug@6.0.0">
+      <group/>
+      <name>Microsoft.Extensions.Logging.Debug</name>
+      <version>6.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging.Debug@6.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@6.0.0">
+      <group/>
+      <name>Microsoft.Extensions.Options.ConfigurationExtensions</name>
+      <version>6.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@6.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Caching.Memory@6.0.0">
+      <group/>
+      <name>Microsoft.Extensions.Caching.Memory</name>
+      <version>6.0.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Extensions.Caching.Memory@6.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.DotNet.InternalAbstractions@1.0.500-preview2-1-003177">
+      <group/>
+      <name>Microsoft.DotNet.InternalAbstractions</name>
+      <version>1.0.500-preview2-1-003177</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.DotNet.InternalAbstractions@1.0.500-preview2-1-003177</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Shouldly@4.0.3">
+      <group/>
+      <name>Shouldly</name>
+      <version>4.0.3</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Shouldly@4.0.3</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/TestStack.BDDfy@4.3.2">
+      <group/>
+      <name>TestStack.BDDfy</name>
+      <version>4.3.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/TestStack.BDDfy@4.3.2</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/xunit@2.4.1">
+      <group/>
+      <name>xunit</name>
+      <version>2.4.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/xunit@2.4.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/CacheManager.Serialization.Json@2.0.0-beta-1629">
+      <group/>
+      <name>CacheManager.Serialization.Json</name>
+      <version>2.0.0-beta-1629</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/CacheManager.Serialization.Json@2.0.0-beta-1629</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/BenchmarkDotNet@0.13.1">
+      <group/>
+      <name>BenchmarkDotNet</name>
+      <version>0.13.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/BenchmarkDotNet@0.13.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Data.SQLite@3.1.1">
+      <group/>
+      <name>Microsoft.Data.SQLite</name>
+      <version>3.1.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Data.SQLite@3.1.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Data.SQLite@6.0.1">
+      <group/>
+      <name>Microsoft.Data.SQLite</name>
+      <version>6.0.1</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.Data.SQLite@6.0.1</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNetCore.Http@2.2.2">
+      <group/>
+      <name>Microsoft.AspNetCore.Http</name>
+      <version>2.2.2</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/Microsoft.AspNetCore.Http@2.2.2</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/coverlet.collector@3.1.0">
+      <group/>
+      <name>coverlet.collector</name>
+      <version>3.1.0</version>
+      <description/>
+      <licenses/>
+      <purl>pkg:nuget/coverlet.collector@3.1.0</purl>
+    </component>
+  </components>
+</bom>

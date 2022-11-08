@@ -1,0 +1,30 @@
+name: Build
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+  
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    env:
+      OFFICIAL_BUILD: 'True'
+      # Set the build number in MinVer.
+      MINVERBUILDMETADATA: build.${{github.run_number}}
+  
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Compile Errythang
+      run: |
+        g++ *.cpp
+        find . -type f -name "*.o"
+    
+    - name: Generate SBOM Using Syft
+      run: |
+        curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
+        syft packages . -o spdx-tag-value

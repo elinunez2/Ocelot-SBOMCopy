@@ -1,0 +1,614 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:1e253dbb-7866-42dc-a368-c2f2308a8074",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-10-28T14:35:33.867Z",
+    "tools": [
+      {
+        "vendor": "AppThreat",
+        "name": "cdxgen",
+        "version": "4.0.41"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Team AppThreat",
+        "email": "cloud@appthreat.com"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "Ocelot",
+      "version": "17.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Ocelot@17.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Ocelot@17.0.1"
+    },
+    {
+      "group": "",
+      "name": "Ocelot.Administration",
+      "version": "17.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Ocelot.Administration@17.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Ocelot.Administration@17.0.1"
+    },
+    {
+      "group": "",
+      "name": "ocelot",
+      "version": "17.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/ocelot@17.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/ocelot@17.0.1"
+    },
+    {
+      "group": "",
+      "name": "Ocelot.Provider.Eureka",
+      "version": "17.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Ocelot.Provider.Eureka@17.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Ocelot.Provider.Eureka@17.0.1"
+    },
+    {
+      "group": "",
+      "name": "Ocelot.Provider.Polly",
+      "version": "17.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Ocelot.Provider.Polly@17.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Ocelot.Provider.Polly@17.0.1"
+    },
+    {
+      "group": "",
+      "name": "Steeltoe.Discovery.Client",
+      "version": "1.1.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Steeltoe.Discovery.Client@1.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Steeltoe.Discovery.Client@1.1.0"
+    },
+    {
+      "group": "",
+      "name": "GraphQL",
+      "version": "4.7.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/GraphQL@4.7.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/GraphQL@4.7.1"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets",
+      "version": "1.14.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.VisualStudio.Azure.Containers.Tools.Targets@1.14.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.VisualStudio.Azure.Containers.Tools.Targets@1.14.0"
+    },
+    {
+      "group": "",
+      "name": "Ocelot.Provider.Kubernetes",
+      "version": "17.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Ocelot.Provider.Kubernetes@17.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Ocelot.Provider.Kubernetes@17.0.1"
+    },
+    {
+      "group": "",
+      "name": "Jaeger",
+      "version": "1.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Jaeger@1.0.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Jaeger@1.0.3"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "version": "6.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@6.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.ServiceFabric",
+      "version": "8.2.1363",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.ServiceFabric@8.2.1363",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.ServiceFabric@8.2.1363"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.ServiceFabric.Services",
+      "version": "5.2.1363",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.ServiceFabric.Services@5.2.1363",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.ServiceFabric.Services@5.2.1363"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.ServiceFabric",
+      "version": "7.2.434",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.ServiceFabric@7.2.434",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.ServiceFabric@7.2.434"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.ServiceFabric.Services",
+      "version": "4.2.434",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.ServiceFabric.Services@4.2.434",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.ServiceFabric.Services@4.2.434"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.AspNetCore",
+      "version": "2.2.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.AspNetCore@2.2.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore@2.2.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.AspNetCore.Mvc",
+      "version": "2.2.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.AspNetCore.Mvc@2.2.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore.Mvc@2.2.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.ServiceFabric.AspNetCore.Kestrel",
+      "version": "4.2.434",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.ServiceFabric.AspNetCore.Kestrel@4.2.434",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.ServiceFabric.AspNetCore.Kestrel@4.2.434"
+    },
+    {
+      "group": "",
+      "name": "StyleCop.Analyzers",
+      "version": "1.2.0-beta.164",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/StyleCop.Analyzers@1.2.0-beta.164",
+      "type": "library",
+      "bom-ref": "pkg:nuget/StyleCop.Analyzers@1.2.0-beta.164"
+    },
+    {
+      "group": "",
+      "name": "IdentityServer4.AccessTokenValidation",
+      "version": "3.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/IdentityServer4.AccessTokenValidation@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/IdentityServer4.AccessTokenValidation@3.0.1"
+    },
+    {
+      "group": "",
+      "name": "IdentityServer4",
+      "version": "4.1.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/IdentityServer4@4.1.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/IdentityServer4@4.1.2"
+    },
+    {
+      "group": "",
+      "name": "CacheManager.Core",
+      "version": "2.0.0-beta-1629",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/CacheManager.Core@2.0.0-beta-1629",
+      "type": "library",
+      "bom-ref": "pkg:nuget/CacheManager.Core@2.0.0-beta-1629"
+    },
+    {
+      "group": "",
+      "name": "CacheManager.Microsoft.Extensions.Configuration",
+      "version": "2.0.0-beta-1629",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/CacheManager.Microsoft.Extensions.Configuration@2.0.0-beta-1629",
+      "type": "library",
+      "bom-ref": "pkg:nuget/CacheManager.Microsoft.Extensions.Configuration@2.0.0-beta-1629"
+    },
+    {
+      "group": "",
+      "name": "CacheManager.Microsoft.Extensions.Logging",
+      "version": "2.0.0-beta-1629",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/CacheManager.Microsoft.Extensions.Logging@2.0.0-beta-1629",
+      "type": "library",
+      "bom-ref": "pkg:nuget/CacheManager.Microsoft.Extensions.Logging@2.0.0-beta-1629"
+    },
+    {
+      "group": "",
+      "name": "Consul",
+      "version": "1.6.10.4",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Consul@1.6.10.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Consul@1.6.10.4"
+    },
+    {
+      "group": "",
+      "name": "Steeltoe.Discovery.ClientCore",
+      "version": "3.1.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Steeltoe.Discovery.ClientCore@3.1.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Steeltoe.Discovery.ClientCore@3.1.2"
+    },
+    {
+      "group": "",
+      "name": "Steeltoe.Discovery.Eureka",
+      "version": "3.1.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Steeltoe.Discovery.Eureka@3.1.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Steeltoe.Discovery.Eureka@3.1.2"
+    },
+    {
+      "group": "",
+      "name": "KubeClient",
+      "version": "2.4.6",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/KubeClient@2.4.6",
+      "type": "library",
+      "bom-ref": "pkg:nuget/KubeClient@2.4.6"
+    },
+    {
+      "group": "",
+      "name": "KubeClient.Extensions.DependencyInjection",
+      "version": "2.4.6",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/KubeClient.Extensions.DependencyInjection@2.4.6",
+      "type": "library",
+      "bom-ref": "pkg:nuget/KubeClient.Extensions.DependencyInjection@2.4.6"
+    },
+    {
+      "group": "",
+      "name": "Polly",
+      "version": "7.2.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Polly@7.2.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Polly@7.2.3"
+    },
+    {
+      "group": "",
+      "name": "Butterfly.Client",
+      "version": "0.0.8",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Butterfly.Client@0.0.8",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Butterfly.Client@0.0.8"
+    },
+    {
+      "group": "",
+      "name": "Butterfly.Client.AspNetCore",
+      "version": "0.0.8",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Butterfly.Client.AspNetCore@0.0.8",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Butterfly.Client.AspNetCore@0.0.8"
+    },
+    {
+      "group": "",
+      "name": "OpenTracing",
+      "version": "0.12.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/OpenTracing@0.12.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/OpenTracing@0.12.1"
+    },
+    {
+      "group": "",
+      "name": "FluentValidation",
+      "version": "10.3.6",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/FluentValidation@10.3.6",
+      "type": "library",
+      "bom-ref": "pkg:nuget/FluentValidation@10.3.6"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.AspNetCore.MiddlewareAnalysis",
+      "version": "6.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.AspNetCore.MiddlewareAnalysis@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore.MiddlewareAnalysis@6.0.1"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.DiagnosticAdapter",
+      "version": "3.1.22",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.DiagnosticAdapter@3.1.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DiagnosticAdapter@3.1.22"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.AspNetCore.Mvc.NewtonsoftJson",
+      "version": "6.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.AspNetCore.Mvc.NewtonsoftJson@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore.Mvc.NewtonsoftJson@6.0.1"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.AspNetCore.TestHost",
+      "version": "6.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.AspNetCore.TestHost@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore.TestHost@6.0.1"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.NET.Test.Sdk",
+      "version": "17.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.NET.Test.Sdk@17.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NET.Test.Sdk@17.0.0"
+    },
+    {
+      "group": "",
+      "name": "Moq",
+      "version": "4.16.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Moq@4.16.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Moq@4.16.1"
+    },
+    {
+      "group": "",
+      "name": "xunit.runner.visualstudio",
+      "version": "2.4.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/xunit.runner.visualstudio@2.4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/xunit.runner.visualstudio@2.4.3"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "version": "6.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.EnvironmentVariables@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.EnvironmentVariables@6.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.Configuration.FileExtensions",
+      "version": "6.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.FileExtensions@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.FileExtensions@6.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.Configuration.Json",
+      "version": "6.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration.Json@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration.Json@6.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.Logging",
+      "version": "6.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging@6.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.Logging.Console",
+      "version": "6.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Console@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging.Console@6.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.Logging.Debug",
+      "version": "6.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging.Debug@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging.Debug@6.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.Options.ConfigurationExtensions",
+      "version": "6.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@6.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Extensions.Caching.Memory",
+      "version": "6.0.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Extensions.Caching.Memory@6.0.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Caching.Memory@6.0.0"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.DotNet.InternalAbstractions",
+      "version": "1.0.500-preview2-1-003177",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.DotNet.InternalAbstractions@1.0.500-preview2-1-003177",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.DotNet.InternalAbstractions@1.0.500-preview2-1-003177"
+    },
+    {
+      "group": "",
+      "name": "Shouldly",
+      "version": "4.0.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Shouldly@4.0.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Shouldly@4.0.3"
+    },
+    {
+      "group": "",
+      "name": "TestStack.BDDfy",
+      "version": "4.3.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/TestStack.BDDfy@4.3.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/TestStack.BDDfy@4.3.2"
+    },
+    {
+      "group": "",
+      "name": "xunit",
+      "version": "2.4.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/xunit@2.4.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/xunit@2.4.1"
+    },
+    {
+      "group": "",
+      "name": "CacheManager.Serialization.Json",
+      "version": "2.0.0-beta-1629",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/CacheManager.Serialization.Json@2.0.0-beta-1629",
+      "type": "library",
+      "bom-ref": "pkg:nuget/CacheManager.Serialization.Json@2.0.0-beta-1629"
+    },
+    {
+      "group": "",
+      "name": "BenchmarkDotNet",
+      "version": "0.13.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/BenchmarkDotNet@0.13.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/BenchmarkDotNet@0.13.1"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Data.SQLite",
+      "version": "3.1.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Data.SQLite@3.1.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Data.SQLite@3.1.1"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.Data.SQLite",
+      "version": "6.0.1",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.Data.SQLite@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Data.SQLite@6.0.1"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.AspNetCore.Http",
+      "version": "2.2.2",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.AspNetCore.Http@2.2.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore.Http@2.2.2"
+    },
+    {
+      "group": "",
+      "name": "coverlet.collector",
+      "version": "3.1.0",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:nuget/coverlet.collector@3.1.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/coverlet.collector@3.1.0"
+    }
+  ]
+}
