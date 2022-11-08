@@ -44,6 +44,5 @@ jobs:
       with:
         path: ./_manifest
 
-    
     - name: Test
       run: dotnet test --no-build --verbosity normal
