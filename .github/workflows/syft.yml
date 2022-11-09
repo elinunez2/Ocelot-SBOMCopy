@@ -30,11 +30,15 @@ jobs:
        dotnet build --no-restore
        echo ${env:RUNNER_TEMP}
     
-    - name: Generate SBOM Using Syft
+    - name: Generate SBOM Using SBOM-Tool and Convert w/ Syft
       run: |
+        curl -Lo $RUNNER_TEMP/sbom-tool https://github.com/microsoft/sbom-tool/releases/latest/download/sbom-tool-linux-x64
+        chmod +x $RUNNER_TEMP/sbom-tool
+        $RUNNER_TEMP/sbom-tool generate -b ./buildOutput -bc . -pn Test -pv 1.0.0 -ps MyCompany -nsb https://sbom.mycompany.com
         curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
         mkdir syftsbom
         syft packages . -o spdx-tag-value --file ./syftsbom/sbomocelot.spdx
+        syft packages  -o syft-json=sbom.syft.json
         ls
 
     - name: Generate Syft SBOM Artifact
