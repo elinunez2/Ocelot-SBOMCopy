@@ -34,7 +34,7 @@ jobs:
       run: |
        dotnet tool install --global CycloneDX
        mkdir cyclonedx
-       dotnet CycloneDX . -o ./cyclonedx
+       dotnet CycloneDX ./Ocelot.sln -o ./cyclonedx
 
 
 
