@@ -1,0 +1,44 @@
+name: Build
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+  
+jobs:
+  build:
+    name: Build
+    runs-on: windows-latest
+
+    env:
+      OFFICIAL_BUILD: 'True'
+      # Set the build number in MinVer.
+      MINVERBUILDMETADATA: build.${{github.run_number}}
+  
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+          
+    - name: Restore dependencies
+      run: dotnet restore 
+      
+    - name: Build
+      run: |
+       dotnet build --no-restore
+       echo ${env:RUNNER_TEMP}
+    
+    - name: Generate SBOM Using CycloneDX
+      run: |
+       dotnet tool install --global CycloneDX
+       mkdir cyclonedx
+       dotnet CycloneDX . -o ./cyclonedx
+
+
+
+    - name: Generate Syft SBOM Artifact
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        path: ./cyclonedx  
