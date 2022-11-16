@@ -33,7 +33,7 @@ jobs:
     - name: Generate SBOM Using CycloneDX Syft
       run: |
        curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
-       syft packages . -o cyclonedx-xml --file ./cyclonedxsbom/cycsbomocelot.xml
+       syft packages . -o cyclonedx-json --file ./cyclonedxsbom/cycsbomocelot.xml
 
     - name: Generate Syft SBOM Artifact
       uses: actions/upload-artifact@v3.1.0
