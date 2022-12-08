@@ -31,7 +31,6 @@ jobs:
        echo ${env:RUNNER_TEMP}
 
     - name: Generate SBOM
-      shell: pwsh
       run: |
         curl -Lo $RUNNER_TEMP/sbom-tool https://github.com/microsoft/sbom-tool/releases/latest/download/sbom-tool-linux-x64
         chmod +x $RUNNER_TEMP/sbom-tool
